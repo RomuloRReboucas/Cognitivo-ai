@@ -5,9 +5,9 @@ Teste Técnico Data Science
 ### Opção: Modelagem para classificação do room type (feature ‘room_type’) com a utilização do Python:<br>
 
 
-### O trabalho é composto das seguintes fases:<br>
+### Estrutura do trabalho:<br>
   
-#### 1) Análise dos dados <br>
+#### 1) Análise dos dados - Arquivo  <br> 
 * Verificação de atributos faltantes,<br>
 * Verificação da necessidade de normalização ou padronização.<br>
 * Verificação da necessidade de transformação para valores numéricos (one-hot-encoding), se precisar.<br>
@@ -20,3 +20,11 @@ Teste Técnico Data Science
 * Aplicação de rede neural (código disponível no arquivo Cognitivo-ai RNN.ipynb - feito no Colab ambiente Google)
 
 #### 3) Conclusão:
+
+a. Como foi a definição da sua estratégia de modelagem?
+b. Como foi definida a função de custo utilizada?
+c. Qual foi o critério utilizado na seleção do modelo final?
+d. Qual foi o critério utilizado para validação do modelo?
+Por que escolheu utilizar este método?
+e. Quais evidências você possui de que seu modelo é
+suficientemente bom?
