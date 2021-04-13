@@ -18,6 +18,9 @@ Teste Técnico Data Science
 * Aplicação dos classificadores Decision Tree, Bagging, Boosting e o Random Forest (RF) <br>
 * Aplicação de rede neural ("Cognitivo-ai RNN.ipynb")
 
+### 3) Conclusão:<br>
+* Escolha do melhor modelo considerando a melhor acurácia
+
 ### Observação: os códigos e os resultados das etapas acima estão disponíveis nos arquivos "Cognitvo AirBnB  - Rômulo Rebouças.ipynb" e "Cognitivo-ai RNN.ipynb". Foi feita a rede neural em arquivo específico processado no ambiente Google Colab. O arquivo "Cognitvo AirBnB  - Rômulo Rebouças.ipynb" foi processado no Jupyter Notbook.
 
 ## b. Como foi definida a função de custo utilizada?
