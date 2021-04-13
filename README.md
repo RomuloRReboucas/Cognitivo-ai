@@ -39,7 +39,7 @@ Como resultado, para a base normal (sem tratamento de balanceamento) a classific
 
 ## d. Qual foi o critério utilizado para validação do modelo?
 
-A acurácia com o uso da base de testes.
+O critério utilizado para a validação foi a acurácia considerando o uso da base de testes.
 
 Por que escolheu utilizar este método?
 
