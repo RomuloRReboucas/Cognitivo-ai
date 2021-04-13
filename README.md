@@ -18,10 +18,11 @@ Teste Técnico Data Science
 * Aplicação dos classificadores Decision Tree, Bagging, Boosting e o Random Forest (RF) <br>
 * Aplicação de rede neural ("Cognitivo-ai RNN.ipynb")
 
-### Observação: os códigos e os resultados das etapas acima estão disponíveis nos arquivos "Cognitvo AirBnB  - Rômulo Rebouças.ipynb" e "Cognitivo-ai RNN.ipynb". Foi feita a rede neural em arquivo específico pois foi processado no ambiente Google Colab. O arquivo "Cognitvo AirBnB  - Rômulo Rebouças.ipynb" foi processado no Jupyter Notbook.
+### Observação: os códigos e os resultados das etapas acima estão disponíveis nos arquivos "Cognitvo AirBnB  - Rômulo Rebouças.ipynb" e "Cognitivo-ai RNN.ipynb". Foi feita a rede neural em arquivo específico processado no ambiente Google Colab. O arquivo "Cognitvo AirBnB  - Rômulo Rebouças.ipynb" foi processado no Jupyter Notbook.
 
 # b. Como foi definida a função de custo utilizada?
 
+Normalmente, o MSE é utilizado para regressão e a entropia cruzada para classificação. No caso foi utilizada a entropia cruzada ('categorical_crossentropy') combinada com o otimizador “Adam” com taxa de aprendizado 0,001. Foram testadas várias taxas de aprendizado no intervalo entre 0,10 e 0,001. O que obteve-se o melhor resultado foi o de 0,001. 
 
 c. Qual foi o critério utilizado na seleção do modelo final?
 d. Qual foi o critério utilizado para validação do modelo?
