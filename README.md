@@ -49,8 +49,7 @@ Um ponto importante a ser considerado quando pensamos em boa acurácia é a veri
 
 ## e. Quais evidências você possui de que seu modelo é suficientemente bom?
 
-Espera-se que o modelo tenha boa performance considerando-se uma boa acurária, pois significa dizer que exitiu, nos testes, boa acertividade de casos considerados "verdadeiro poistivo" como também de "verdadeiro negativo".
-
+As evidências são os resultados das acurácias. Espera-se que um modelo tenha boa performance considerando-se sua boa acurária, pois significa dizer que exitiu, nos testes, boa acertividade de casos considerados "verdadeiro poisitivo" como também de casos "verdadeiro negativo".
 
 
 
