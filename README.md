@@ -31,11 +31,11 @@ Em geral, o MSE (erro do quadrado médio) é utilizado para regressão e a entro
 
 No caso dos classificadores Decision Tree, Bagging, Boosting e o Random Forest (RF) foi verificada a acurácia. No caso da rede neural além da acurácia, precisão e revocação, verificou-se o decaimento da função de perda (loss).
 
-Como a base de dados apresentou desbalanceamento acentuado das classes, analizou-se os modelos utilizando-se métodos de balanceamento Oversampling, Undersampling e Híbrido, com a finalidade de utilizar os dados em condições mais apropriadas para a aplicação dos modelos.
+Como a base de dados apresentou desbalanceamento acentuado das classes, analizou-se os modelos utilizando-se os métodos de balanceamento Oversampling, Undersampling e Híbrido, com a finalidade de aplicar os modelos com dados em condições mais apropriadas.
 
-Verificou-se que a base de dados tratada com o método Hibrido (utilizando o oversampling e o undersampling aplicadas de forma conjunta - SMOTEENN) se obteve melhores resultados.
+Verificou-se que a base de dados tratada com o método Hibrido (utilizando o oversampling e o undersampling - SMOTEENN) obteve melhores resultados.
 
-Assim, para a base normal (sem tratamento de balanceamento) a classificação Random Forest obteve a melhor acurácia, 81%. Considerando a base dados com tratamento (método Hibrido) rede neural obteve a melhor acurácia de 89%.
+Assim, para a base normal (sem tratamento de balanceamento) a classificação Random Forest obteve a melhor acurácia, 81%. Considerando a base dados com tratamento (método Hibrido) a rede neural obteve a melhor acurácia, 89%.
 
 ## d. Qual foi o critério utilizado para validação do modelo?
 
