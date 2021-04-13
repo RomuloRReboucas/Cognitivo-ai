@@ -6,7 +6,7 @@ Teste Técnico Data Science
 
 # a. Como foi a definição da sua estratégia de modelagem?
 
-#### 1) Análise dos dados  <br> 
+#### 1) Análise dos dados <br> 
 * Verificação de atributos faltantes,<br>
 * Verificação da necessidade de normalização ou padronização.<br>
 * Verificação da necessidade de transformação para valores numéricos (one-hot-encoding), se precisar.<br>
@@ -16,7 +16,9 @@ Teste Técnico Data Science
 #### 2) Modelagem:<br>
 * Avaliação de resultados com base sem e com balanceamento<br>
 * Aplicação dos classificadores Decision Tree, Bagging, Boosting e o Random Forest (RF) <br>
-* Aplicação de rede neural (código disponível no arquivo Cognitivo-ai RNN.ipynb - feito no Colab ambiente Google)
+* Aplicação de rede neural ("Cognitivo-ai RNN.ipynb")
+
+### Observação: os códigos e os resultados das etapas acima estão disponíveis nos arquivos "Cognitvo AirBnB  - Rômulo Rebouças.ipynb" e "Cognitivo-ai RNN.ipynb". Foi feita a rede neural em arquivo específico pois foi processado no ambiente Google Colab. O arquivo "Cognitvo AirBnB  - Rômulo Rebouças.ipynb" foi processado no Jupyter Notbook.
 
 # b. Como foi definida a função de custo utilizada?
 
