@@ -33,18 +33,17 @@ de utilizar os dados em condições mais apropriadas para a aplicação da rede 
 
 Verificou-se que a base de dados tratada com o método Hibrido (utilizando o oversampling e o undersampling aplicadas de forma conjunta - SMOTEENN) se obteve melhores resultados.
 
-base normal Random Forest com 81% de acurácia;
-Base com tratamento (método Hibrido) rede neural com acurácia de 89%.
-Pro sua vez a rede neural obteve melhores resultados 
-
+Assim, para a base normal (sem tratamento de balanceamento) a classificação Random Forest obteve a melhor acurácia, 81%. Considerando a base dados com tratamento (método Hibrido) rede neural obteve a melhor acurácia de 89%.
 
 # d. Qual foi o critério utilizado para validação do modelo?
 
-A acurácia com base de testes.
+A acurácia com o uso da base de testes.
 
 Por que escolheu utilizar este método?
 
 Porque a acurácia mede a proporção de casos que foram corretamente previstos pelo modelo.
+
+Um ponto importante a ser considerado quando pensamos em boa acurácia, é a verificação de problemas de Overfitting. Neste estudo, foram feitas algumas simulações para verificar possível overfitting considerando o uso do tratamento de balanceamento de base de dados e a utilização de hiperparâmetros nos algoritmos e na rede neural. 
 
 # e. Quais evidências você possui de que seu modelo é suficientemente bom?
 
