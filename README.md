@@ -1,13 +1,12 @@
-# Cognitivo-ai
+# Cognitivo-ai 
 Teste Técnico Data Science
 ### Análise exploratória para avaliar a consistência dos dados e identificar possíveis variáveis que impactam sua variável resposta.
 
 ### Opção: Modelagem para classificação do room type (feature ‘room_type’) com a utilização do Python:<br>
 
-
 ### Estrutura do trabalho:<br>
   
-#### 1) Análise dos dados - Arquivo  <br> 
+#### 1) Análise dos dados  <br> 
 * Verificação de atributos faltantes,<br>
 * Verificação da necessidade de normalização ou padronização.<br>
 * Verificação da necessidade de transformação para valores numéricos (one-hot-encoding), se precisar.<br>
