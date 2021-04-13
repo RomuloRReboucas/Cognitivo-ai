@@ -22,7 +22,7 @@ Teste Técnico Data Science
 
 # b. Como foi definida a função de custo utilizada?
 
-Normalmente, o MSE é utilizado para regressão e a entropia cruzada para classificação. No caso foi utilizada a entropia cruzada ('categorical_crossentropy') combinada com o otimizador “Adam” com taxa de aprendizado 0,001. Foram testadas várias taxas de aprendizado no intervalo entre 0,10 e 0,001. O que obteve-se o melhor resultado foi o de 0,001. 
+Em geral, o MSE (erro do quadrado médio) é utilizado para regressão e a entropia cruzada para classificação. Como o estudo é de classificação foi utilizada a entropia cruzada ('categorical_crossentropy') combinada com o otimizador “Adam” com taxa de aprendizado 0,001. Foram testadas várias taxas de aprendizado no intervalo entre 0,10 e 0,001. O que obteve-se o melhor resultado foi o de 0,001. 
 
 c. Qual foi o critério utilizado na seleção do modelo final?
 d. Qual foi o critério utilizado para validação do modelo?
