@@ -31,8 +31,7 @@ Em geral, o MSE (erro do quadrado médio) é utilizado para regressão e a entro
 
 No caso dos classificadores Decision Tree, Bagging, Boosting e o Random Forest (RF) foi verificada a acurácia. No caso da rede neural além da acurácia, precisão e revocação, verificou-se o decaimento da função de perda (loss).
 
-Como existe desbalanceamento acentuado das classes, analizou-se os modelos utilizando as métodos de balanceamento Oversampling, Undersampling e Híbrido, com a finalidade
-de utilizar os dados em condições mais apropriadas para a aplicação da rede neural.
+Como a base de dados apresentou desbalanceamento acentuado das classes, analizou-se os modelos utilizando-se as métodos de balanceamento Oversampling, Undersampling e Híbrido, com a finalidade de utilizar os dados em condições mais apropriadas para a aplicação dos modelos.
 
 Verificou-se que a base de dados tratada com o método Hibrido (utilizando o oversampling e o undersampling aplicadas de forma conjunta - SMOTEENN) se obteve melhores resultados.
 
