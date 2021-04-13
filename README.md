@@ -14,7 +14,7 @@ Teste Técnico Data Science
 * Verificação da necessidade de balanceamento das classes<br>
 
 ### 2) Modelagem:<br>
-* Avaliação de resultados com base sem e com balanceamento<br>
+* Avaliação de resultados com base de dados sem e com tratamento de balanceamento de classes<br>
 * Aplicação dos classificadores Decision Tree, Bagging, Boosting e o Random Forest (RF) <br>
 * Aplicação de rede neural ("Cognitivo-ai RNN.ipynb")
 
