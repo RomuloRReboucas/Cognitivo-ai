@@ -24,8 +24,32 @@ Teste Técnico Data Science
 
 Em geral, o MSE (erro do quadrado médio) é utilizado para regressão e a entropia cruzada para classificação. Como o estudo é de classificação foi utilizada a entropia cruzada ('categorical_crossentropy') combinada com o otimizador “Adam” com taxa de aprendizado 0,001. Foram testadas várias taxas de aprendizado no intervalo entre 0,10 e 0,001. O que obteve-se o melhor resultado foi o de 0,001. 
 
-c. Qual foi o critério utilizado na seleção do modelo final?
-d. Qual foi o critério utilizado para validação do modelo?
+# c. Qual foi o critério utilizado na seleção do modelo final?
+
+No caso dos classificadores Decision Tree, Bagging, Boosting e o Random Forest (RF) foi verificada a acurácia. No caso da rede neural além da acurácia, precisão e revocação, verificou-se o decaimento da função de perda (loss).
+
+Como existe desbalanceamento acentuado das classes, analizou-se os modelos utilizando as métodos de balanceamento Oversampling, Undersampling e Híbrido, com a finalidade
+de utilizar os dados em condições mais apropriadas para a aplicação da rede neural.
+
+Verificou-se que a base de dados tratada com o método Hibrido (utilizando o oversampling e o undersampling aplicadas de forma conjunta - SMOTEENN) se obteve melhores resultados.
+
+base normal Random Forest com 81% de acurácia;
+Base com tratamento (método Hibrido) rede neural com acurácia de 89%.
+Pro sua vez a rede neural obteve melhores resultados 
+
+
+# d. Qual foi o critério utilizado para validação do modelo?
+
+A acurácia com base de testes.
+
 Por que escolheu utilizar este método?
-e. Quais evidências você possui de que seu modelo é
-suficientemente bom?
+
+Porque a acurácia mede a proporção de casos que foram corretamente previstos pelo modelo.
+
+# e. Quais evidências você possui de que seu modelo é suficientemente bom?
+
+Espera-se que o modelo tenha boa performance considerando-se uma boa acurária, pois significa dizer que exitiu, nos testes, boa acertividade de casos considerados "verdadeiro poistivo" como também de "verdadeiro negativo".
+
+
+
+
