@@ -45,7 +45,7 @@ Por que escolheu utilizar este método?
 
 Porque a acurácia mede a proporção de casos que foram corretamente previstos pelo modelo.
 
-Um ponto importante a ser considerado quando pensamos em boa acurácia, é a verificação de problemas de Overfitting. Neste estudo, foram feitas algumas simulações para verificar possível overfitting considerando o uso do tratamento de balanceamento de base de dados e a utilização de hiperparâmetros nos algoritmos e na rede neural. 
+Um ponto importante a ser considerado quando pensamos em boa acurácia é a verificação de problemas de Overfitting. Neste estudo, foram feitas simulações para mitigar possível overfitting considerando que hove tratamento de balanceamento de dados e de ajustes de hiperparâmetros nos modelos. 
 
 ## e. Quais evidências você possui de que seu modelo é suficientemente bom?
 
